@@ -5,7 +5,7 @@ function iniciarSesion(){
     } else {
     
         $.ajax({
-            url:"http://152.70.141.56:8080/api/user/" +$("#inputEmail").val() +"/" +$("#inputPasword").val(),
+            url:"http://129.151.122.3:8080/api/user/" +$("#inputEmail").val() +"/" +$("#inputPasword").val(),
             type: "GET",
             dataType: "json",
             success: function (respuesta) {
